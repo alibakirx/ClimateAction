@@ -3,7 +3,7 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 
 // Dynamically import Earth3D to avoid SSR issues with Three.js
-const Earth3D = dynamic(() => import('../components/Earth3D'), {
+const Earth3D = dynamic(() => import('../components/SustainableCities'), {
   ssr: false,
   loading: () => (
     <div style={{
